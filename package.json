@@ -1,0 +1,51 @@
+{
+  "name": "ziji-bot-discord",
+  "version": "0.0.1",
+  "description": "Ziji bot discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node ./deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zijipia/Ziji-bot-discord.git"
+  },
+  "keywords": [
+    "ziji",
+    "ziji-bot-discord"
+  ],
+  "author": "Của Ziji được xào nấu lại",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zijipia/Ziji-bot-discord/issues"
+  },
+  "homepage": "https://github.com/zijipia/Ziji-bot-discord#readme",
+  "dependencies": {
+    "@discord-player/extractor": "^4.5.0",
+    "@discordjs/voice": "^0.17.0",
+    "@vitalets/google-translate-api": "^9.2.0",
+    "anilist-node": "^1.14.1",
+    "axios": "^1.7.7",
+    "canvacord": "^6.0.2",
+    "cheerio": "^1.0.0",
+    "discord-hangman": "^1.4.0",
+    "discord-player": "^6.7.1",
+    "discord-player-youtubei": "^1.2.6",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "google-translate-api": "^2.3.0",
+    "google-tts-api": "^2.0.2",
+    "lyrics-finder": "^21.7.0",
+    "mathjs": "^13.1.1",
+    "mediaplex": "^0.0.9",
+    "mongoose": "^8.5.2",
+    "node-cron": "^3.0.3",
+    "opusscript": "^0.0.8",
+    "sharp": "^0.33.4",
+    "twemoji-parser": "^14.0.0",
+    "yt-search": "^2.12.1",
+    "ziextractor": "^1.0.6"
+  }
+}
